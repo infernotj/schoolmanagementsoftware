@@ -6,6 +6,7 @@ import {
   Users,
   Settings,
   Building2,
+  CalendarCheck,
 } from 'lucide-react';
 
 /**
@@ -20,6 +21,7 @@ const navItems = [
   { to: '/students', label: 'Students', icon: Users  },
   { to: '/fees', label: 'Fees', icon: IndianRupee },
   { to: '/master-settings', label: 'Master Settings', icon: Settings },
+  { to: '/attendance', label: 'Attendance', icon: CalendarCheck },
   { to: '/company-profile', label: 'Company Profile', icon: Building2 },
 ];
 
