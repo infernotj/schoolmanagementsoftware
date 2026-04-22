@@ -9,6 +9,7 @@ import Attendance from './pages/Attendance';
 // import AppToaster from "./components/ui/AppToaster";
 import Students from './pages/Students';
 import StudentDetail from './pages/StudentDetail';
+import CalanderView from './pages/CalanderView';
 
 /**
  * App Root Component
@@ -32,6 +33,8 @@ export default function App() {
           <Route path="/students" element={<Students />} />
           <Route path="/students/:studentId" element={<StudentDetail />} />
         </Route>
+          <Route path="/test" element={<StudentDetail />} />
+          {/* <Route path="/calendar" element={<CalanderView />} /> */}
       </Routes>
     </HashRouter>
   );

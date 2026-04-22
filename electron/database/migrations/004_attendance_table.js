@@ -2,7 +2,7 @@
  * Migration 003: Add father and mother Aadhaar number fields
  */
 
-const version = 4;
+const version = 7;
 const name = 'Added-the-attendence-note-field';
 
 /**
